@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>prawn page</title>
+</head>
+<body>
+    <section class="showcase">
+    <header>
+    <h2 class="logo">Avanthi Feeds</h2>
+    <div class="toggle "></div>
+</header>
+<video src="video3.mp4"muted loop autoplay></video>
+<div class="over lay"></div>
+<div class="text"> 
+<h3>A Prawn feed company</h3>
+<h3>Exploring The World </h3>
+<p>
+    Avanti Feeds Ltd (AFL) has marked its presence in the field of aquaculture by engaging in manufacturing high-quality feed for shrimps operating the Vannamei hatchery and processing and exporting shrimps.</p>
+<a href="#">Explore</a>
+</div>
+    <ul class="social">
+    <li><img src="facebook.png" alt=""></li>
+     <li><img src="twitter.png" alt=""></li>
+    <li><img src="instagram.png" alt=""></li>
+    </ul>
+
+</section>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+    
+        <SCRipt> const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+      
+            menuToggle.addEventListener('click', () => {
+              menuToggle.classList.toggle('active');
+              showcase.classList.toggle('active');
+            })</SCRipt>
+</body>
+</html>
